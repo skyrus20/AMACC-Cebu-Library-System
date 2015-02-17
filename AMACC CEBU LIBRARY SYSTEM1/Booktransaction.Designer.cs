@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.lnkAdmin = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -40,7 +40,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.Register = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
+            this.backbutton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.Search.SuspendLayout();
@@ -50,7 +50,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel1.Controls.Add(this.linkLabel4);
+            this.panel1.Controls.Add(this.lnkAdmin);
             this.panel1.Controls.Add(this.linkLabel3);
             this.panel1.Controls.Add(this.linkLabel2);
             this.panel1.Controls.Add(this.linkLabel1);
@@ -59,18 +59,18 @@
             this.panel1.Size = new System.Drawing.Size(545, 25);
             this.panel1.TabIndex = 3;
             // 
-            // linkLabel4
+            // lnkAdmin
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel4.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel4.Location = new System.Drawing.Point(504, 6);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(36, 13);
-            this.linkLabel4.TabIndex = 3;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Admin";
-            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
+            this.lnkAdmin.AutoSize = true;
+            this.lnkAdmin.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkAdmin.LinkColor = System.Drawing.Color.Black;
+            this.lnkAdmin.Location = new System.Drawing.Point(504, 6);
+            this.lnkAdmin.Name = "lnkAdmin";
+            this.lnkAdmin.Size = new System.Drawing.Size(36, 13);
+            this.lnkAdmin.TabIndex = 3;
+            this.lnkAdmin.TabStop = true;
+            this.lnkAdmin.Text = "Admin";
+            this.lnkAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAdmin_LinkClicked);
             // 
             // linkLabel3
             // 
@@ -169,26 +169,27 @@
             this.Register.Location = new System.Drawing.Point(4, 22);
             this.Register.Name = "Register";
             this.Register.Padding = new System.Windows.Forms.Padding(3);
-            this.Register.Size = new System.Drawing.Size(518, 228);
+            this.Register.Size = new System.Drawing.Size(537, 236);
             this.Register.TabIndex = 1;
             this.Register.Text = "Register";
             this.Register.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // backbutton
             // 
-            this.button1.Location = new System.Drawing.Point(4, 37);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 25);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.backbutton.Location = new System.Drawing.Point(4, 37);
+            this.backbutton.Name = "backbutton";
+            this.backbutton.Size = new System.Drawing.Size(68, 25);
+            this.backbutton.TabIndex = 8;
+            this.backbutton.Text = "Back";
+            this.backbutton.UseVisualStyleBackColor = true;
+            this.backbutton.Click += new System.EventHandler(this.backbutton_Click);
             // 
             // Booktransaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 341);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.backbutton);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "Booktransaction";
@@ -206,7 +207,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.LinkLabel lnkAdmin;
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel1;
@@ -217,6 +218,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TabPage Register;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button backbutton;
     }
 }

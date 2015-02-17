@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.lnkadmin = new System.Windows.Forms.LinkLabel();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
             this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.linkLabel8 = new System.Windows.Forms.LinkLabel();
@@ -50,7 +50,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.panel2.Controls.Add(this.linkLabel5);
+            this.panel2.Controls.Add(this.lnkadmin);
             this.panel2.Controls.Add(this.linkLabel6);
             this.panel2.Controls.Add(this.linkLabel7);
             this.panel2.Controls.Add(this.linkLabel8);
@@ -59,18 +59,18 @@
             this.panel2.Size = new System.Drawing.Size(546, 23);
             this.panel2.TabIndex = 4;
             // 
-            // linkLabel5
+            // lnkadmin
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel5.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel5.Location = new System.Drawing.Point(466, 6);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(36, 13);
-            this.linkLabel5.TabIndex = 3;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Admin";
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            this.lnkadmin.AutoSize = true;
+            this.lnkadmin.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.lnkadmin.LinkColor = System.Drawing.Color.Black;
+            this.lnkadmin.Location = new System.Drawing.Point(466, 6);
+            this.lnkadmin.Name = "lnkadmin";
+            this.lnkadmin.Size = new System.Drawing.Size(36, 13);
+            this.lnkadmin.TabIndex = 3;
+            this.lnkadmin.TabStop = true;
+            this.lnkadmin.Text = "Admin";
+            this.lnkadmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkadmin_LinkClicked);
             // 
             // linkLabel6
             // 
@@ -116,6 +116,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabControl1
             // 
@@ -137,7 +138,6 @@
             this.Search.TabIndex = 0;
             this.Search.Text = "Search";
             this.Search.UseVisualStyleBackColor = true;
-            this.Search.Click += new System.EventHandler(this.Search_Click);
             // 
             // panel1
             // 
@@ -194,7 +194,6 @@
             this.Controls.Add(this.panel2);
             this.Name = "Members_Panel";
             this.Text = "Members_Panel";
-            this.Load += new System.EventHandler(this.Members_Panel_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -208,7 +207,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.LinkLabel lnkadmin;
         private System.Windows.Forms.LinkLabel linkLabel6;
         private System.Windows.Forms.LinkLabel linkLabel7;
         private System.Windows.Forms.LinkLabel linkLabel8;

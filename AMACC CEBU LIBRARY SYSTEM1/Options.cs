@@ -16,19 +16,34 @@ namespace AMACC_CEBU_LIBRARY_SYSTEM
             InitializeComponent();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            authenticateform passfrm = new authenticateform();
+            passfrm.Show();
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
 
+         //button to mem-panel form
+        private void btnMempanel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Members_Panel frm1 = new Members_Panel();
+            frm1.Show();
         }
 
-        private void Options_Load(object sender, EventArgs e)
+        //button to booktrans form
+        private void btnBooktrans_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Booktransaction frm2 = new Booktransaction();
+            frm2.Show();
         }
+
+        
+
+        
+
+       
     }
 }

@@ -16,9 +16,25 @@ namespace AMACC_CEBU_LIBRARY_SYSTEM
             InitializeComponent();
         }
 
-        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void lnkAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            authenticateform passfrm = new authenticateform();
+            passfrm.Show();
         }
+
+        
+        //back button to Options form
+        private void backbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Options bckbtn = new Options();
+            bckbtn.Show();
+        }
+
+        
+
+        
+        
     }
 }

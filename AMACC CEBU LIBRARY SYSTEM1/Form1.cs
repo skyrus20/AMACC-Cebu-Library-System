@@ -19,12 +19,9 @@ namespace AMACC_CEBU_LIBRARY_SYSTEM
         private void btnsubmit_Click(object sender, EventArgs e)
         {
             this.Hide();
-            
-           
-            
-
+            Options nform = new Options();
+            nform.Show();
         }
 
-      
     }
 }
