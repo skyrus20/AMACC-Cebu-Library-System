@@ -1,0 +1,8 @@
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\bin\Debug\AMACC CEBU LIBRARY SYSTEM.exe
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\bin\Debug\AMACC CEBU LIBRARY SYSTEM.pdb
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC_CEBU_LIBRARY_SYSTEM.loginform.resources
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC_CEBU_LIBRARY_SYSTEM.Options.resources
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC_CEBU_LIBRARY_SYSTEM.Properties.Resources.resources
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC CEBU LIBRARY SYSTEM.csproj.GenerateResource.Cache
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC CEBU LIBRARY SYSTEM.exe
+C:\Users\hp\AppData\Local\Temporary Projects\AMACC CEBU LIBRARY SYSTEM\obj\x86\Debug\AMACC CEBU LIBRARY SYSTEM.pdb
