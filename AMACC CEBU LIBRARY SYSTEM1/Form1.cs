@@ -16,14 +16,15 @@ namespace AMACC_CEBU_LIBRARY_SYSTEM
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnsubmit_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            
+           
+            
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
